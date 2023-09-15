@@ -81,7 +81,7 @@ $kernel->boot();
 return $kernel->getContainer()->get('doctrine')->getManager();
 ```
 
-Example for Symfony 5:
+Example for Symfony 5/6:
 
 ```php
 // tests/object-manager.php
